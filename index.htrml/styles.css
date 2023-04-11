@@ -1,0 +1,156 @@
+/* Стилизация основного контейнера */
+.mainbox {
+  max-width: 500px;
+  height: 1600px;
+  margin: 250px auto;
+  padding: 120px 10px;
+  background-color: #f0f0f0;
+  border-radius: 45px;
+  position: relative;
+  top: -150px;
+}
+.sites {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+/* Стилизация заголовка формы */
+h3 {
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Стилизация полей ввода */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 100px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Стилизация кнопки отправки формы */
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 100px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  top: -100px;
+}
+
+input[type="submit"]:hover {
+  background-color: #0062cc;
+}
+
+.container {
+  max-width: 500px;
+  margin-right: 500px;
+  float: right;
+  position: relative;
+  top: 260px;
+}
+.menu {
+  font-size: 20px;
+  background:rgb(144, 124, 222);
+}
+
+a {
+  text-decoration: none;
+  margin: 0 40px;
+}
+
+a:hover {
+  color: orange;
+  font-weight: 600;
+  padding-bottom: 70px;
+  border-bottom: 20px;
+}
+header {
+  width: 1000px;
+  position: relative;
+  top: -170px;
+}
+
+#opening {
+  position: relative;
+  top: 50px;
+}
+
+#find {
+  position: relative;
+  top: 50px;
+}
+.anketa {
+  position: relative;
+  top: -100px;
+}
+.subm {
+  position: relative;
+  top: -200px;
+}
+
+.search {
+  position: relatives;
+  z-index: 9999;
+}
+#opening {
+  justify-content: space-between;
+  align-items: center;
+}
+#find {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border: 5px solid #ebb217;
+  border-radius: 50px;
+}
+footer {
+  background-color: #4b4b4e;
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+figcaption {
+  color: white;
+}
+.downn {
+  margin-right: 100px;
+  color: white;
+  float: right;
+  font-size: 14px;
+  position: relative;
+  top: -100px;
+}
+li {
+  margin-bottom: 10px;
+}
+li:hover,
+a.ol {
+  color: green;
+}
+
+.ads {
+  text-align: center;
+  margin-right: 200px;
+  float: right;
+  position: relative;
+  top: -100px;
+}
+body{
+  background-color: #4983e2;
+}
